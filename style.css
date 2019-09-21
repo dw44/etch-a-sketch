@@ -7,6 +7,33 @@
 .container {
     width: 90%;
     height: 800px;
-    margin: 25px auto;
+    margin: 0 auto;
     border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+}
+
+.inner-cell {
+    border: 1px black solid;
+    background-color: #bffffc;
+}
+
+.inner-cell:hover {
+    background-color: #28dafa;
+}
+
+.reset {
+    height: 45px;
+    width: 125px;
+    margin: 5px auto;
+}
+
+#new-canvas {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: large;
 }
